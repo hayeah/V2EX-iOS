@@ -8,11 +8,14 @@
 
 import UIKit
 
-class DiscoveryViewController: V2EXViewController {
+class DiscoveryViewController: UIViewController {
 
+    @IBOutlet weak var tabSegmentedControl: HMSegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        tabSegmentedControl.setUp()
     }
     
-
 }

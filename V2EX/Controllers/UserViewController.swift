@@ -8,6 +8,6 @@
 
 import UIKit
 
-class UserViewController: V2EXViewController {
+class UserViewController: UIViewController {
 
 }

@@ -14,7 +14,4 @@ class NodeListViewController: UITableViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func sideMenuButtonTouched(sender: UIBarButtonItem) {
-        RootViewController.displaySideMenu()
-    }
 }

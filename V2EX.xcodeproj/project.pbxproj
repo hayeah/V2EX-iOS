@@ -12,13 +12,14 @@
 		5E14977C1A13A1890034F34F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E14977B1A13A1890034F34F /* Images.xcassets */; };
 		5E14977F1A13A1890034F34F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E14977D1A13A1890034F34F /* LaunchScreen.xib */; };
 		5E14978B1A13A1890034F34F /* V2EXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14978A1A13A1890034F34F /* V2EXTests.swift */; };
+		5E7A88A71A14DB6C0047FA94 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A88A61A14DB6C0047FA94 /* UIViewControllerExtension.swift */; };
+		5E7A88A91A14DFE40047FA94 /* HMSegmentedControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A88A81A14DFE40047FA94 /* HMSegmentedControlExtension.swift */; };
 		5EEA279E1A149C8F00DD4233 /* NodeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA279D1A149C8F00DD4233 /* NodeListViewController.swift */; };
 		5EEA27A01A149CBA00DD4233 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA279F1A149CBA00DD4233 /* UserViewController.swift */; };
 		5EEA27A21A149CD700DD4233 /* PreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA27A11A149CD700DD4233 /* PreferenceViewController.swift */; };
 		5EFF896D1A13A6620091C84B /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF89691A13A6620091C84B /* ContainerViewController.swift */; };
 		5EFF896F1A13A6620091C84B /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF896A1A13A6620091C84B /* DiscoveryViewController.swift */; };
 		5EFF89711A13A6620091C84B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF896B1A13A6620091C84B /* RootViewController.swift */; };
-		5EFF89731A13A6620091C84B /* V2EXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF896C1A13A6620091C84B /* V2EXViewController.swift */; };
 		C9AE7B4139F4168322B520E0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B005FAB4D095232E092499DC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,8 @@
 		5E1497841A13A1890034F34F /* V2EXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = V2EXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1497891A13A1890034F34F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E14978A1A13A1890034F34F /* V2EXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2EXTests.swift; sourceTree = "<group>"; };
+		5E7A88A61A14DB6C0047FA94 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		5E7A88A81A14DFE40047FA94 /* HMSegmentedControlExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSegmentedControlExtension.swift; sourceTree = "<group>"; };
 		5EEA279D1A149C8F00DD4233 /* NodeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeListViewController.swift; sourceTree = "<group>"; };
 		5EEA279F1A149CBA00DD4233 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		5EEA27A11A149CD700DD4233 /* PreferenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +53,6 @@
 		5EFF89691A13A6620091C84B /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		5EFF896A1A13A6620091C84B /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
 		5EFF896B1A13A6620091C84B /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		5EFF896C1A13A6620091C84B /* V2EXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = V2EXViewController.swift; sourceTree = "<group>"; };
 		8B13FFA5AACFE1A505B3DE75 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B005FAB4D095232E092499DC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -178,6 +180,7 @@
 		5EEA27971A13B57100DD4233 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5E7A88A81A14DFE40047FA94 /* HMSegmentedControlExtension.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,7 +188,7 @@
 		5EEA279C1A14411600DD4233 /* Abstracts */ = {
 			isa = PBXGroup;
 			children = (
-				5EFF896C1A13A6620091C84B /* V2EXViewController.swift */,
+				5E7A88A61A14DB6C0047FA94 /* UIViewControllerExtension.swift */,
 			);
 			name = Abstracts;
 			sourceTree = "<group>";
@@ -340,9 +343,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EEA27A01A149CBA00DD4233 /* UserViewController.swift in Sources */,
+				5E7A88A91A14DFE40047FA94 /* HMSegmentedControlExtension.swift in Sources */,
 				5EFF89711A13A6620091C84B /* RootViewController.swift in Sources */,
+				5E7A88A71A14DB6C0047FA94 /* UIViewControllerExtension.swift in Sources */,
 				5EFF896D1A13A6620091C84B /* ContainerViewController.swift in Sources */,
-				5EFF89731A13A6620091C84B /* V2EXViewController.swift in Sources */,
 				5E1497751A13A1890034F34F /* AppDelegate.swift in Sources */,
 				5EEA279E1A149C8F00DD4233 /* NodeListViewController.swift in Sources */,
 				5EFF896F1A13A6620091C84B /* DiscoveryViewController.swift in Sources */,

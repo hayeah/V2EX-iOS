@@ -8,6 +8,6 @@
 
 import UIKit
 
-class PreferenceViewController: V2EXViewController {
+class PreferenceViewController: UIViewController {
 
 }

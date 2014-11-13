@@ -47,15 +47,31 @@
                     <view key="view" contentMode="scaleToFill" id="jl8-n7-baZ">
                         <rect key="frame" x="0.0" y="44" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OML-pe-KJ2" customClass="IB_HMSegmentedControl" customModule="V2EX" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="600" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="OIQ-8f-OYp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="0.99607843137254903" green="0.97647058823529409" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="OML-pe-KJ2" secondAttribute="trailing" id="XcW-hz-ytS"/>
+                            <constraint firstItem="OML-pe-KJ2" firstAttribute="top" secondItem="9XO-fl-VcD" secondAttribute="bottom" id="ZEq-DP-jQK"/>
+                            <constraint firstItem="OML-pe-KJ2" firstAttribute="leading" secondItem="jl8-n7-baZ" secondAttribute="leading" id="h2d-ge-Ihe"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="V2EX" id="G7e-oJ-qbD">
                         <barButtonItem key="leftBarButtonItem" image="side_menu_icon" id="UXS-Wn-KJp">
                             <connections>
-                                <action selector="sideMenuButtonTouched:" destination="8Bk-J4-X5m" id="I1b-Kl-98z"/>
+                                <action selector="sideMenuButtonTouched:" destination="8Bk-J4-X5m" id="Uvt-ya-XdH"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tabSegmentedControl" destination="OML-pe-KJ2" id="Txj-3G-xqx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KQ5-pC-bTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,7 +93,7 @@
                     <navigationItem key="navigationItem" title="个人中心" id="jBR-jp-EOb">
                         <barButtonItem key="leftBarButtonItem" image="side_menu_icon" id="LDY-se-zYW">
                             <connections>
-                                <action selector="sideMenuButtonTouched:" destination="iEs-mN-lI8" id="zvY-XT-KrQ"/>
+                                <action selector="sideMenuButtonTouched:" destination="iEs-mN-lI8" id="YSP-zC-W5b"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -103,7 +119,7 @@
                     <navigationItem key="navigationItem" title="用户设置" id="miv-Xs-xir">
                         <barButtonItem key="leftBarButtonItem" image="side_menu_icon" id="XCI-ed-FQa">
                             <connections>
-                                <action selector="sideMenuButtonTouched:" destination="dWw-OK-WLR" id="O1d-qb-8G4"/>
+                                <action selector="sideMenuButtonTouched:" destination="dWw-OK-WLR" id="fmR-zx-1Rr"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -137,7 +153,7 @@
                     <navigationItem key="navigationItem" title="节点列表" id="FUA-nx-J6w">
                         <barButtonItem key="leftBarButtonItem" image="side_menu_icon" id="soL-v4-6PN">
                             <connections>
-                                <action selector="sideMenuButtonTouched:" destination="JLy-ha-aYT" id="cjb-L8-grC"/>
+                                <action selector="sideMenuButtonTouched:" destination="JLy-ha-aYT" id="ttz-cT-mr9"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
