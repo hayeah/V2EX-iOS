@@ -1,0 +1,39 @@
+PODS:
+  - Appirater (2.0.4)
+  - DTCoreText (1.6.14):
+    - DTFoundation/Core (~> 1.7.1)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.1)
+    - DTFoundation/DTHTMLParser (~> 1.7.1)
+    - DTFoundation/UIKit (~> 1.7.1)
+  - DTFoundation/Core (1.7.3)
+  - DTFoundation/DTAnimatedGIF (1.7.3)
+  - DTFoundation/DTHTMLParser (1.7.3):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.3):
+    - DTFoundation/Core
+  - HMSegmentedControl (1.4.0)
+  - hpple (0.2.0)
+  - MBProgressHUD (0.9)
+  - pop (1.0.7)
+  - RNFrostedSidebar (0.2.0)
+
+DEPENDENCIES:
+  - Appirater (~> 2.0.4)
+  - DTCoreText (~> 1.6.14)
+  - HMSegmentedControl (~> 1.4)
+  - hpple (~> 0.2.0)
+  - MBProgressHUD (~> 0.9)
+  - pop (~> 1.0.7)
+  - RNFrostedSidebar (~> 0.2)
+
+SPEC CHECKSUMS:
+  Appirater: cbdb7f305562cfde585300bfff86da01ae559deb
+  DTCoreText: 1fc0aadfa238d14c6cc56035af4e2b76b958e3b1
+  DTFoundation: 360bc65ab44f588611f47324b8cfb0f18e04b263
+  HMSegmentedControl: c0517a8d4b80c978b8386f863f1c44729cfd7d6f
+  hpple: f4eb7c21a8db83ec264e5d614ec7509e10e5adec
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  pop: 2f14a1ea61339767af9e66741b418c831b3844df
+  RNFrostedSidebar: f1d95d9b2627f13cc10e75d36e751a623eec079c
+
+COCOAPODS: 0.34.4
