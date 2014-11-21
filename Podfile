@@ -1,8 +1,11 @@
-source 'https://github.com/CocoaPods/Specs.git'
+# source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
 
-inhibit_all_warnings!
+# inhibit_all_warnings!
+#
+link_with 'V2EX', 'V2EXTests'
+
 
 pod 'hpple', '~> 0.2.0'
 pod 'MBProgressHUD', '~> 0.9'
